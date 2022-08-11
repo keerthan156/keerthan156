@@ -13,7 +13,7 @@ public class test1
 	
               char c = sc.next().charAt(0);
                 	
-               int i=1;
+               int i=;
               int j;
 	 int k=n*2-1;
  

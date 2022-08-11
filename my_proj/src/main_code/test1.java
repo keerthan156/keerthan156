@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class test1
 {
     
@@ -21,7 +20,7 @@ public class test1
 	do
                {
                     
-	        j=;
+	        j=1;
 		
                 	do
                         {      if(j==i || j==k-i+1)

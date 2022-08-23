@@ -22,7 +22,7 @@ public class test2 {
       int merge[] = new int[src1.length + src2.length];
 
       // variables
-      int i = 0, j = 0, k = 0;
+      int i = 0, j = 1, k = 0;
 
       // traverse both array
       while (i < src1.length && j < src2.length) {

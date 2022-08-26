@@ -1,2 +1,2 @@
 [webservers]
-192.168.15.222 ansible_user=prashanth
+192.168.15.206 ansible_user=keerthan

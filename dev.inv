@@ -1,2 +1,5 @@
 [webservers]
 192.168.15.222 ansible_user=prashanth
+inventory = dev.inv
+remote_user = prashanth
+private_key_file = /root/.ssh/authorized_keys

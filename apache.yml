@@ -1,9 +1,10 @@
 ---
-- hosts: webservers 
+- name: httpd install and start service
+  hosts: webservers 
   become: True
   tasks:
-    - name: Deploy static website
-      copy:
-        src: index.html
-        dest: /var/www/html/
+    - name: start httpd
+      service:
+        name: httpd
+        state: started
 ...
